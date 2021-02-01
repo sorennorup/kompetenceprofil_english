@@ -1,4 +1,5 @@
 var allItems = getItems(data);
+
 setItemsOnDragStart(allItems[0]);   
 
 createDraggableArea(['#drag1','#done1'],getItemsForDraggable(data.block1));

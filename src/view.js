@@ -6,7 +6,7 @@
     let year = today.getFullYear();
     let thisdate = weekday+'-'+month+'-'+year;
 
-    (function setNameAndDate() {
+   /* (function setNameAndDate() {
         if(sessionStorage.getItem('firstload')===null){
             name = prompt('INDTAST DIT NAVN ELLER KOMMUNENAVN\n\n Vi gemmer ikke dine profildata. Benyt Chrome, Firefox eller safari','');
             sessionStorage.setItem('firstload','true');
@@ -14,11 +14,11 @@
             sessionStorage.setItem('date',thisdate);
             window.location.reload();
         }
-    })();
+    })();*/
 
     (function displayHeader(){
-        $('#header').html('<h1>KOMPETENCEPROFIL</h1><span style = "font-size: 1.875rem;">Kontaktperson+ i kædeansvaret</br>'+
-        '</span><span style = "font-size:1.375rem;"> - '+sessionStorage.getItem('name')+'</span>');
+        $('#header').html('<h1>COMPETENCE PROFILE</h1><span style = "font-size: 1.875rem;">Scouts in cross-professional settings </br>'+
+        '</span>');
     })();
     
     (function displayBoxText(){

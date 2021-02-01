@@ -109,20 +109,16 @@ function getSessionStorageKeys(){
 var dd = {
     content: [
         {
-            text: 'KOMPETENCEPROFIL',
+            text: 'COMPETENCE PROFILE',
             style: 'header'
         },
         {
-           text: 'Kontaktperson+ i kædeansvaret',
+           text: 'Scouts in cross-professional settings ',
            style: 'smaller'
         },
-          {
-            text: sessionStorage.getItem('name')+' '+sessionStorage.getItem('date').toUpperCase()+' \n \n \n' ,
-            style: 'smallest'
-          },
 
         {
-			text: 'Viden \n',
+			text: 'Knowledge \n',
             style: 'subheader'
            
         },
@@ -133,7 +129,7 @@ var dd = {
         },
 
         {
-			text: 'Kompetencer\n',
+			text: 'Skills\n',
             style: 'subheader'
            
         },
@@ -144,7 +140,7 @@ var dd = {
         },
 
         {
-			text: 'Færdigheder \n',
+			text: 'Attitudes \n',
             style: 'subheader'
            
         },
@@ -199,11 +195,11 @@ document.getElementById('source-html').innerHTML = setHtml(getSessionStorageValu
 
 
 function setHtml(data) {
-    let header = '<h1>KOMPETENCEPROFIL</h1><span style = "font-size: 1.875rem;">Kontaktperson+ i kædeansvaret</br>'+
-    '</span><span style = "font-size:1.375rem;"> - '+sessionStorage.getItem('name')+'</span>';
-    let knowledge = "<h2>Viden</h2>"+data[0]+"\n";
-    let competences = "<h2>Kompetencer</h2>"+data[1]+"\n";
-    let skills = "<h2>Skills</h2>"+data[2]+"\n";
+    let header = '<h1>COMPETENCE PROFILE</h1><span style = "font-size: 1.875rem;">Scouts in cross-professional settings </br>';
+   
+    let knowledge = "<h2>Knowledge</h2>"+data[0]+"\n";
+    let competences = "<h2>Skills</h2>"+data[1]+"\n";
+    let skills = "<h2>Attitudes</h2>"+data[2]+"\n";
     return header+knowledge+competences+skills;
 }
 
