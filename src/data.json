@@ -1,0 +1,72 @@
+{
+    "titles":{
+       "title1": "Kompetencer",
+       "title2": "Viden",
+       "title3": "Færdigheder"
+    },
+    
+    "block1":
+     {
+        
+        "id1": {
+            "dragid": "item1",
+            "value": "Opsøge unge, målgruppevurdere, afklare ungeprofiler"
+        },
+        "id2": {
+            "dragid": "item2",
+            "value": "Vejlede målgrupperelevant med individuelt fokus, fremme og sikre ungeprogression"
+        },
+        "id3": {
+            "dragid": "item3",
+            "value": "Co-designe og koordinere individuelle forløb i kædeansvaret, inddrage de unge i meddesign, organisere didaktisk"
+        },
+
+        "id4": {
+            "dragid": "item4",
+            "value": "Afklare og afbalancere de professionelles tilgange til de unge"
+        }
+
+    },
+
+    "block2":
+     { 
+        "id1": {
+            "dragid": "item5",
+            "value": "Respektere målgruppen"
+        },
+
+        "id2": {
+            "dragid": "item6",
+            "value": "Kende målgrupperelevante metoder inden for bl.a. vejledning, pædagogik, socialfaglighed"
+        },
+        "id3": {
+            "dragid": "item7",
+            "value": "Kende metoder for tværprofessionelt samarbejde"
+        }
+
+    },
+
+    "block3":
+    {
+        
+        "id1": {
+            "dragid": "item8",
+            "value": "Professionsuddannet, målgrupperelevant efteruddannet"
+        },
+        "id2": {
+            "dragid": "item9",
+            "value": "Følge de professionsetiske standarder"
+        },
+        "id3": {
+            "dragid": "item10",
+            "value": "Forstå egen rolle i forhold til andres roller"
+        },
+        "id4": {
+            "dragid": "item11",
+            "value": "Beherske metoder til evalueringer og kvalitetssikring"
+        }
+
+
+    }
+
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="UTF-8">
+       
+        <script type="text/javascript" src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+        </script>
+        <script src =" bootstrap/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+        <link href="jquery-ui.css" rel="stylesheet">
+        <script src="src/jquery-ui.js"></script>
+        <script src =" src/helpers.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+		<link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed:300,400,400i,500,600,700" rel="stylesheet">
+		
+        <script src = "pdfmake-master/build/pdfmake.min.js"></script>
+        <script type="text/javascript" src="pdfmake-master/build/vfs_fonts.js"></script>
+     
+        <title>Kompetenceprofil</title>
+    </head>
+    <body>
+        <div style = "display:none" id = "source-html">Tjek om den kommer ind her</div>
+       
+        <div id = "wrapper">
+            <div id = "accordion__wrapper">
+                <div id="accordion">
+                  <div class="card accordion__card">
+                    <a class="card-header" id="accordion__heading">
+                      <h5 class="mb-0">
+                        <div id = "collapse-id"  class="" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                          OM PROFILEN
+                        </div>
+                      </h5>
+                  </a>
+                    <div id="collapseOne" class="collapse hide" aria-labelledby="accordion__heading" data-parent="#accordion">
+                      <div id = 'accordion__body' class="card-body">
+                         
+                      </div>
+                    </div>
+                  </div>
+              </div>	
+          </div>
+          
+      <header id = "header"></header>
+     
+      <section id = "content">
+        <div id = "board-wrapper__upper" class = "board-wrapper">
+            <p id = "date"></p>
+            <div class = "titlebox"><h2 class = "profile__header1">Lokal profil</h2> </div>
+            <div id = "done1" class = "board " draggable="true">
+                <div class="title"><h2 id = "title1">Viden</h2></div>
+            </div>
+            <div id = "done2" class = "board" draggable="true">
+                <div class="title"><h2 id = "title2">Kompetencer</h2></div>
+            </div>
+            <div id = "done3" class = "board" draggable="true">
+                <div class="title"><h2 id = "title3">Færdigheder</h2></div>
+            </div>
+            <div id = "button__wrapper">        
+               <button id = "button__startover" class = "button">START FORFRA</button>
+                <button id = "button__pdf" class = "button">DOWNLOAD PDF</button>
+                <button id = "button__word" class = "button">DOWNLOAD WORD</button>
+            </div>
+        </div>
+        
+        <div id = "board-wrapper__lower" class = "board-wrapper">
+          <div class = "titlebox"><h2 class = "profile__header2">Generisk profil</h2></div>
+            <div id = "drag1"  class = "board drag"></div>
+            <div id = "drag2" class = "board drag"></div>
+            <div id = "drag3" class = "board drag"></div>
+        </div>
+          
+      </section>
+      
+      <script type="text/javascript" src="src/data.js"></script>
+      <script src="src/drag.js"></script>
+      <script src = "src/scripts.js"></script>
+      <script>
+        </script>
+        </div>
+    </body>
+</html>
+    
